@@ -1,0 +1,26 @@
+name: OrganStealer
+version: 1.0.0
+main: com.organstealer.OrganStealer
+description: A dark PvP system where every kill steals player power
+authors:
+  - NotAmethyst
+  - OgMikeyfr
+
+commands:
+  organ:
+    description: View your organs
+    usage: /organ
+  organstats:
+    description: View player stats
+    usage: /organstats <player>
+  organadmin:
+    description: Admin commands
+    usage: /organadmin <command>
+
+permissions:
+  organstealer.use:
+    description: Use organ commands
+    default: true
+  organstealer.admin:
+    description: Admin commands
+    default: op
